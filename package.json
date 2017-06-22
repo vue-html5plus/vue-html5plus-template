@@ -1,0 +1,23 @@
+{
+  "name": "vue-html5plus-template",
+  "version": "1.0.0",
+  "description": "A template for building App with vue.js and html5plus.",
+  "main": "meta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plus-project/vue-html5plus-template.git"
+  },
+  "keywords": [
+    "vue",
+    "html5plus"
+  ],
+  "author": "zhaomenghuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plus-project/vue-html5plus-template/issues"
+  },
+  "homepage": "https://github.com/plus-project/vue-html5plus-template#readme"
+}

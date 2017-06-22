@@ -1,0 +1,16 @@
+:root { 
+	--white: #fff; 
+	--grey: #1e1e1d; 
+	--yellow: #ffad15; 
+	--offwhite: #f8f8f8;
+	--red: #ff0000;
+  --appColor: #26a2ff;
+}
+.mui-bar.mui-bar-nav {
+	background-color: var(--appColor);
+	box-shadow: none;
+}
+.mui-bar.mui-bar-nav .mui-title,
+.mui-bar.mui-bar-nav .mui-icon {
+	color: #fff;
+}

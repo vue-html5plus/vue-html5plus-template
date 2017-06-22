@@ -1,0 +1,5 @@
+[
+  "node_modules/vue/dist/vue.min.js",
+  "node_modules/babel-polyfill/dist/polyfill.min.js",
+  "node_modules/vue-html5plus/lib/vue-html5plus.js"
+]

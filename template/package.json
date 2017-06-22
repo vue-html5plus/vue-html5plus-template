@@ -1,0 +1,51 @@
+{
+  "name": "vue-html5plus-template",
+  "version": "1.0.0",
+  "description": "A template for building App with vue.js and html5plus.",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp init",
+    "clean": "gulp clean",
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plus-templates/vue-html5plus-template.git"
+  },
+  "keywords": [
+    "vuejs",
+    "html5plus"
+  ],
+  "author": "zhaomenghuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plus-templates/vue-html5plus-template/issues"
+  },
+  "homepage": "https://github.com/plus-templates/vue-html5plus-template#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.5.2",
+    "cross-env": "^5.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^7.0.0",
+    "gulp-remember": "^0.3.1",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-sync": "^0.1.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^10.0.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "vue": "^2.3.4",
+    "vue-html5plus": "^1.0.0"
+  }
+}
