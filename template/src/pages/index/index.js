@@ -5,14 +5,14 @@ var currentWebview;
 new Vue({
 	el: '#app',
 	data: {
-	  title: 'DCloud ASK社区',
+	  title: '首页',
 		activeTab: 'home',
 		styles: {
 			top: '45px',
 			bottom: '51px'
 		},
 		tabs: [
-			{name: 'home', label: '首页', title: 'DCloud ASK社区'},
+			{name: 'home', label: '首页', title: '首页'},
 			{name: 'message', label: '消息', title: '消息'},
 			{name: 'person', label: '我的', title: '个人中心'}
 		]
