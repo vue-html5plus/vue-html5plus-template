@@ -1,4 +1,4 @@
-(function(){
+(function() {
 
 const codeRE = /<(.+?)>/g;
 const idSelectorRE = /^#([\w-]+)$/;

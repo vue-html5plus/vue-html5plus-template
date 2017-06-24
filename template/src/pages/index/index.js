@@ -19,8 +19,8 @@ new Vue({
 	},
 	filters: {
 		srcHelper: function(value, activeTab) {
-			value = (value === activeTab) ? value + '-active' : value
-			return './img/' + value + '.png'
+			value = (value === activeTab) ? value + '-active' : value;
+			return `../../assets/img/${value}.png`;
 		}
 	},
   plusReady () {

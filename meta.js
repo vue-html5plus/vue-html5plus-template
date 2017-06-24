@@ -35,5 +35,5 @@ module.exports = {
       "message": "Author"
     }
   },
-  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/zhaomenghuan/vue-webpack-template"
+  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run start\n\n  npm run dev\n\nDocumentation can be found at https://github.com/vue-html5plus/vue-html5plus-template"
 };

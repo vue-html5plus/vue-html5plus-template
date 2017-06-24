@@ -13,12 +13,12 @@
 	<body>
 		<div id="app">
 			<header class="mui-bar mui-bar-nav">
-			  <h1 class="mui-title">{{title}}</h1>
+			  <h1 class="mui-title">\{{title}}</h1>
 			</header>
 			<nav class="mui-bar mui-bar-tab">
 				<a class="mui-tab-item" :class="{'mui-active': tab.name===activeTab}" v-for="tab in tabs" v-on:tap="changeView(tab.name, tab.title)">
 					<img class="mui-icon" :src="tab.name | srcHelper(activeTab)" />
-					<span class="mui-tab-label">{{tab.label}}</span>
+					<span class="mui-tab-label">\{{tab.label}}</span>
 				</a>
 			</nav>
 		</div>
