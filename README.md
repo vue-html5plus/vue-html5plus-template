@@ -4,7 +4,7 @@ A template for building App with vue.js and html5plus.
 
 ## Usage
 
-install vue-cli:
+install vue-cli：
 
 ```
 $ npm install -g vue-cli
